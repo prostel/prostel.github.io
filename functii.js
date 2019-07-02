@@ -1,5 +1,9 @@
 $(document).ready(
   function() {
-    alert("DADEL DADEL"); 
+    
   }
 );
+
+function purifica() {
+    alert("CLICK!");  
+}
