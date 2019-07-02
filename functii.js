@@ -5,5 +5,5 @@ $(document).ready(
 );
 
 function purifica() {
-    alert("CLICK!");  
+    $("img").remove();
 }
