@@ -1,4 +1,4 @@
-$(dcoument).ready(
+$(document).ready(
   function() {
     alert("DADEL DADEL"); 
   }
