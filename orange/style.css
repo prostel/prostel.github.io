@@ -1,3 +1,12 @@
+
+@media (max-device-width:854px) 
+{
+ *{
+   font-size: 150%; 
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -14,29 +23,37 @@ body {
 
 .panel-title {
   background-color: rgb(180, 99, 224);
+	  padding-left: 2%;
+  padding-right: 2%;
 }
+
+.panel-title, .topic-title, .explanation {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+
 
 .topic-title {
   background-color: rgb(227, 178, 86);
+    padding-left: 3%;
+  padding-right: 3%;
 }
 .invalid {
   background-color: rgb(230, 76, 81);
-  text-align: center;
 }
 
+.valid, .invalid {
+	  padding-left: 4.5%;
+  padding-right: 4.5%;
+    text-align: center;
+}
 .valid {
   background-color: rgb(76, 230, 81);
-  text-align:center;
 }
 
 .explanation {
   background-color: rgb(127, 164, 227);
-}
-
-
-@media only screen and (max-width: 768px) 
-{
- * {
-   font-size: 200%;
-  }
+    padding-left: 4%;
+  padding-right: 4%;
 }
