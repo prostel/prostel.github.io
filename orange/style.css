@@ -1,9 +1,22 @@
 
 @media (max-device-width:854px) 
 {
- *{
+ #title {
    font-size: 150%; 
   }
+  
+  .panel-title {
+	  font-size: 155%;
+  }
+	
+	.topic-title
+	{
+		font-size: 140%;
+	}
+	
+	.invalid, .valid, .explanation {
+		font-size: 135%;
+	}
 }
 
 
