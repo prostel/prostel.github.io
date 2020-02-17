@@ -2,20 +2,20 @@
 @media (max-device-width:854px) 
 {
  #title {
-   font-size: 150%; 
+   font-size: 200%; 
   }
   
   .panel-title {
-	  font-size: 155%;
+	  font-size: 200%;
   }
 	
 	.topic-title
 	{
-		font-size: 140%;
+		font-size: 200%;
 	}
 	
 	.invalid, .valid, .explanation {
-		font-size: 135%;
+		font-size: 200%;
 	}
 }
 
@@ -40,7 +40,7 @@ body {
   padding-right: 2%;
 }
 
-.panel-title, .topic-title, .explanation {
+.panel-title, .topic-title, .explanation, .invalid, .valid {
   padding-top: 1%;
   padding-bottom: 1%;
 }
