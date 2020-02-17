@@ -32,3 +32,11 @@ body {
 .explanation {
   background-color: rgb(127, 164, 227);
 }
+
+
+@media only screen and (max-width: 768px) 
+{
+ * {
+   font-size: 200%;
+  }
+}
